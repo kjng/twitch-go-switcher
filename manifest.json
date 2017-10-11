@@ -12,7 +12,8 @@
   "content_scripts": [
     {
       "matches": ["*://www.twitch.tv/*"],
-      "js": ["redirect.js"]
+      "js": ["redirect.js"],
+      "run_at": "document_start"
     }
   ],
   "permissions": [
