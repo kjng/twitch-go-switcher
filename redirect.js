@@ -10,7 +10,6 @@ chrome.storage.sync.get('twitch_go_switcher', (items) => {
     }
 
     if (status === 'enable') {
-      console.log('Redirecting to twitch go.');
       redirectToTwitchGo();
     }
 });
